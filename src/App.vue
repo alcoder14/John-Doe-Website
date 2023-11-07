@@ -177,5 +177,8 @@
     .link{
       display: none;
     }
+    .mobile-link{
+      font-size: 4rem;
+    }
   }
 </style>

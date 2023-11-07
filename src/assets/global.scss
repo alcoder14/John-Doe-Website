@@ -35,11 +35,13 @@ button{
 .blue-full-btn, .blue-transparent-btn, .grey-full-btn{
     color: $white;
 }
+.blue-full-btn, .blue-transparent-btn, .grey-full-btn, .blue-full-btn-no-effect{
+    font-size: 2.4rem;
+}
 .blue-full-btn, .blue-transparent-btn{
     border: $blue solid 5px;
 }
 .blue-transparent-btn{
-    font-size: 2.4rem;
     background-color: rgba($color: $blue, $alpha: 0.5);
     transition: 0.5s all;
 }
@@ -48,7 +50,6 @@ button{
     background-color: $blue;
 }
 .blue-full-btn{
-    font-size: 2.4rem;
     background-color: $blue;
     transition: 0.5s all;
 }
@@ -57,18 +58,26 @@ button{
     background-color: rgba($color: $blue, $alpha: 0.5);
 }
 .blue-full-btn-no-effect{
-    font-size: 2.4rem;
     background-color: $blue;
     transition: 0.5s all;
     border: none;
     color: $white;
 }
 .grey-full-btn{
-    font-size: 2.4rem;
     background-color: $darkgrey;
 }
 .btn-icon{
     margin-right: 1rem;
+}
+@media(max-width: 1000px){
+    .blue-full-btn, .blue-transparent-btn, .grey-full-btn, .blue-full-btn-no-effect{
+        font-size: 2.1rem;
+    }
+}
+@media(max-width: 1000px){
+    .blue-full-btn, .blue-transparent-btn, .grey-full-btn, .blue-full-btn-no-effect{
+        font-size: 1.8rem;
+    }
 }
 .fa-arrow-down{
     animation-name: arrow-down;

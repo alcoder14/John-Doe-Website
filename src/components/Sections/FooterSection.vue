@@ -78,6 +78,10 @@ export default {
         .brand-icon{
             font-size: 3rem;
         }
+        .footer-line{
+            height: 1rem;
+            width: 100%;
+        }
     }
     @media(max-width: 768px){
         footer{
@@ -100,10 +104,10 @@ export default {
             height: 11vh;
         }
         .footer-info, .footer-line, .footer-name{
-            font-size: 2.2rem;
+            font-size: 1.8rem;
         }
         .brand-icon{
-            font-size: 2.8rem;
+            font-size: 2.4rem;
         }
     }
 </style>

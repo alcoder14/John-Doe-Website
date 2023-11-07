@@ -87,8 +87,14 @@
   }
   @media(max-width: 626px){
     .short-description{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
         padding: 0 50px;
+    }
+    .name{
+      font-size: 7rem;
+    }
+    .title{
+      font-size: 2rem;
     }
   }
 </style>
